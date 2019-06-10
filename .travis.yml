@@ -14,7 +14,7 @@ script:
 - npm run build
 after_script:
 # - ssh root@39.108.125.0 "./data/travis" # 请替换成自己的登录IP和登录用户
-- scp -o stricthostkeychecking=no -r ./dist root@39.108.125.0:/data
+- scp -o stricthostkeychecking=no -r dist root@39.108.125.0:/data/travis
 # - cd ./dist
 # - git init
 # - git config user.name "${U_NAME}"
