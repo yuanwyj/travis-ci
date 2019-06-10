@@ -29,6 +29,6 @@ env:
   global: 
 before_install:
 - openssl aes-256-cbc -K $encrypted_5f4d1625ed6b_key -iv $encrypted_5f4d1625ed6b_iv
-  -in id_rsa.enc -out ~\/.ssh/id_rsa -d
+  -in id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-- echo -e "39.108.125.0\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
+- echo -e "39.108.125.0ntStrictHostKeyChecking non" >> ~/.ssh/config
