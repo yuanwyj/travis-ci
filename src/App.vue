@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">我就改改这个tab</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">冬瓜pi</router-link>
     </div>
     <router-view/>
   </div>

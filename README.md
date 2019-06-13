@@ -1,1 +1,1 @@
-# travis-ci
+# travis-ci ![avatar](https://www.travis-ci.org/yuanwyj/travis-ci.svg?branch=master)
